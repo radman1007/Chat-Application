@@ -3,4 +3,4 @@ from django.views import View
 
 class Main(View):
     def get(self, request):
-        pass
+        return render(request, "main.html")
